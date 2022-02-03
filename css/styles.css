@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 32px 0 72px 0;
+}
+
+.container {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+        /* style do h1 - h2 */
+
+.about {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/space.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.about-name {
+    color: #ffc700;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.about-profession {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.about-positions {
+    color: #ffc700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-left: 85px;
+    list-style: disc;
+}
+
+.about-positions-tex {
+    color: #ffffff;
+}
+
+.about-button {
+    border: 0;
+    outline: 0;
+    padding: 16px 32px 16px 32px;
+    background-color: #ffc700;
+    border-radius: 38px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.about-description {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.darth-vader-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.death-star-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    bottom: -96;
+    opacity: 0.4;
+}
+
+            /* styles de section 2 */
+.achivements {
+    padding: 60px 0;
+    background-color: #222527;
+}
+
+.achivements-header {
+    color: #ffc700;
+    font-weight: bold;
+    font-size: 16;
+    line-height: 24px;
+    margin-bottom: 64px;
+}
+
+.achivements-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.achivements-items-header {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffc700;
+    margin: 38px 0 4px 0;
+}
+
+.achivements-item-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.achivements-item {
+    width: 25%;
+}

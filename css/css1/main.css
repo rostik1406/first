@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.wraper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 50px;
+    grid-template-areas:
+        "form form form" 
+        "header header header"
+        "sidebar content sidebar2"
+        "ads content sidebar2"
+        "footer footer footer";
+}
+
+form {
+    grid-area: form;
+    background-color: rgb(224, 154, 73);
+}
