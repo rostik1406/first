@@ -1,0 +1,4 @@
+git status                        - Переглянути статус
+git add .                         - Додати все в індекс
+git commit -m "comment to commit" - Коміт з коментарем
+git push                          - Запушити зміни в репозиторій
